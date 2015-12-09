@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "00dcbfd6784fd945c82ec30338dd7fdb",
-    "content-hash": "53aa0b66b81701c1ab8ac1f31e0c1250",
+    "hash": "a9c7e6f2bc988ea31301d003dc27f6f9",
+    "content-hash": "d635b05717fb748dd71ff662db36846d",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1425,6 +1425,58 @@
             "time": "2015-10-28 15:47:04"
         },
         {
+            "name": "sensio/generator-bundle",
+            "version": "v3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sensiolabs/SensioGeneratorBundle.git",
+                "reference": "ca4d3a13387111acff157112ed88360d84831430"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/ca4d3a13387111acff157112ed88360d84831430",
+                "reference": "ca4d3a13387111acff157112ed88360d84831430",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/console": "~2.7|~3.0",
+                "symfony/framework-bundle": "~2.7|~3.0",
+                "symfony/process": "~2.7|~3.0",
+                "symfony/yaml": "~2.7|~3.0"
+            },
+            "require-dev": {
+                "doctrine/orm": "~2.4",
+                "symfony/doctrine-bridge": "~2.7|~3.0",
+                "twig/twig": "~1.18"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Sensio\\Bundle\\GeneratorBundle\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "This bundle generates code for you",
+            "time": "2015-12-08 18:08:03"
+        },
+        {
             "name": "sensiolabs/security-checker",
             "version": "v3.0.2",
             "source": {
@@ -2328,58 +2380,6 @@
                 "php"
             ],
             "time": "2015-12-09 15:27:54"
-        },
-        {
-            "name": "sensio/generator-bundle",
-            "version": "v3.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sensiolabs/SensioGeneratorBundle.git",
-                "reference": "f5f60fc84fdef91333c67f29b00a271cfbcf1ccb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/f5f60fc84fdef91333c67f29b00a271cfbcf1ccb",
-                "reference": "f5f60fc84fdef91333c67f29b00a271cfbcf1ccb",
-                "shasum": ""
-            },
-            "require": {
-                "symfony/console": "~2.7|~3.0",
-                "symfony/framework-bundle": "~2.7|~3.0",
-                "symfony/process": "~2.7|~3.0",
-                "symfony/yaml": "~2.7|~3.0"
-            },
-            "require-dev": {
-                "doctrine/orm": "~2.4",
-                "symfony/doctrine-bridge": "~2.7|~3.0",
-                "twig/twig": "~1.18"
-            },
-            "type": "symfony-bundle",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Sensio\\Bundle\\GeneratorBundle\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                }
-            ],
-            "description": "This bundle generates code for you",
-            "time": "2015-11-10 13:25:32"
         },
         {
             "name": "symfony/phpunit-bridge",
