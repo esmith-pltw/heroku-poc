@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "af61d401b2e24b08ae3e4f05c062c3a2",
-    "content-hash": "d5e89d737353d0bfa1f4c766aa32a7dc",
+    "hash": "00dcbfd6784fd945c82ec30338dd7fdb",
+    "content-hash": "53aa0b66b81701c1ab8ac1f31e0c1250",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -2285,6 +2285,50 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "heroku/heroku-buildpack-php",
+            "version": "v85",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/heroku/heroku-buildpack-php.git",
+                "reference": "ab6bb4443ef51a29101702bb1d1f85a7fe25f214"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/ab6bb4443ef51a29101702bb1d1f85a7fe25f214",
+                "reference": "ab6bb4443ef51a29101702bb1d1f85a7fe25f214",
+                "shasum": ""
+            },
+            "bin": [
+                "bin/heroku-hhvm-apache2",
+                "bin/heroku-hhvm-nginx",
+                "bin/heroku-php-apache2",
+                "bin/heroku-php-nginx"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Zuelke",
+                    "email": "dz@heroku.com"
+                }
+            ],
+            "description": "Toolkit for starting a PHP application locally, with or without foreman, using the same config for PHP/HHVM and Apache2/Nginx as on Heroku",
+            "homepage": "http://github.com/heroku/heroku-buildpack-php",
+            "keywords": [
+                "apache",
+                "apache2",
+                "foreman",
+                "heroku",
+                "hhvm",
+                "nginx",
+                "php"
+            ],
+            "time": "2015-12-09 15:27:54"
+        },
         {
             "name": "sensio/generator-bundle",
             "version": "v3.0.0",
