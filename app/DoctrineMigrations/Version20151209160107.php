@@ -19,6 +19,8 @@ class Version20151209160107 extends AbstractMigration
 
         $table->addColumn('username', 'string');
         $table->addUniqueIndex(['username']);
+
+        $table->addColumn('password', 'string');
     }
 
     /**
